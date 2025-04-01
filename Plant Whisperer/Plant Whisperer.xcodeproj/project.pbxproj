@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7CAAA3C2D9C73F9007A6B0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CAAA362D9C73F9007A6B0F /* Preview Assets.xcassets */; };
+		F7CAAA3D2D9C73F9007A6B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CAAA382D9C73F9007A6B0F /* Assets.xcassets */; };
+		F7CAAA3E2D9C73F9007A6B0F /* PlantWhispererApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CAAA392D9C73F9007A6B0F /* PlantWhispererApp.swift */; };
+		F7CAAA3F2D9C73F9007A6B0F /* VegetableListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CAAA3A2D9C73F9007A6B0F /* VegetableListScreen.swift */; };
+		F7CAAA432D9C7441007A6B0F /* VegetableHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CAAA422D9C7441007A6B0F /* VegetableHTTPClient.swift */; };
+		F7CAAA462D9C75A7007A6B0F /* Vegetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CAAA452D9C75A7007A6B0F /* Vegetable.swift */; };
+		F7CAAA862D9C7887007A6B0F /* vegetables.json in Resources */ = {isa = PBXBuildFile; fileRef = F7CAAA852D9C7887007A6B0F /* vegetables.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7CAAA252D9C6C91007A6B0F /* Plant Whisperer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plant Whisperer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CAAA362D9C73F9007A6B0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7CAAA382D9C73F9007A6B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7CAAA392D9C73F9007A6B0F /* PlantWhispererApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantWhispererApp.swift; sourceTree = "<group>"; };
+		F7CAAA3A2D9C73F9007A6B0F /* VegetableListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableListScreen.swift; sourceTree = "<group>"; };
+		F7CAAA422D9C7441007A6B0F /* VegetableHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableHTTPClient.swift; sourceTree = "<group>"; };
+		F7CAAA452D9C75A7007A6B0F /* Vegetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegetable.swift; sourceTree = "<group>"; };
+		F7CAAA852D9C7887007A6B0F /* vegetables.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vegetables.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7CAAA222D9C6C91007A6B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7CAAA1C2D9C6C91007A6B0F = {
+			isa = PBXGroup;
+			children = (
+				F7CAAA3B2D9C73F9007A6B0F /* Plant Whisperer */,
+				F7CAAA262D9C6C91007A6B0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7CAAA262D9C6C91007A6B0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7CAAA252D9C6C91007A6B0F /* Plant Whisperer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7CAAA372D9C73F9007A6B0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F7CAAA852D9C7887007A6B0F /* vegetables.json */,
+				F7CAAA362D9C73F9007A6B0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7CAAA3B2D9C73F9007A6B0F /* Plant Whisperer */ = {
+			isa = PBXGroup;
+			children = (
+				F7CAAA442D9C7577007A6B0F /* Models */,
+				F7CAAA412D9C740A007A6B0F /* Clients */,
+				F7CAAA402D9C73FF007A6B0F /* Screens */,
+				F7CAAA372D9C73F9007A6B0F /* Preview Content */,
+				F7CAAA382D9C73F9007A6B0F /* Assets.xcassets */,
+				F7CAAA392D9C73F9007A6B0F /* PlantWhispererApp.swift */,
+			);
+			path = "Plant Whisperer";
+			sourceTree = "<group>";
+		};
+		F7CAAA402D9C73FF007A6B0F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F7CAAA3A2D9C73F9007A6B0F /* VegetableListScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F7CAAA412D9C740A007A6B0F /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				F7CAAA422D9C7441007A6B0F /* VegetableHTTPClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		F7CAAA442D9C7577007A6B0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7CAAA452D9C75A7007A6B0F /* Vegetable.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7CAAA242D9C6C91007A6B0F /* Plant Whisperer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7CAAA332D9C6C94007A6B0F /* Build configuration list for PBXNativeTarget "Plant Whisperer" */;
+			buildPhases = (
+				F7CAAA212D9C6C91007A6B0F /* Sources */,
+				F7CAAA222D9C6C91007A6B0F /* Frameworks */,
+				F7CAAA232D9C6C91007A6B0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Plant Whisperer";
+			packageProductDependencies = (
+			);
+			productName = "Plant Whisperer";
+			productReference = F7CAAA252D9C6C91007A6B0F /* Plant Whisperer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7CAAA1D2D9C6C91007A6B0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F7CAAA242D9C6C91007A6B0F = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = F7CAAA202D9C6C91007A6B0F /* Build configuration list for PBXProject "Plant Whisperer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7CAAA1C2D9C6C91007A6B0F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F7CAAA262D9C6C91007A6B0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7CAAA242D9C6C91007A6B0F /* Plant Whisperer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7CAAA232D9C6C91007A6B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CAAA3C2D9C73F9007A6B0F /* Preview Assets.xcassets in Resources */,
+				F7CAAA3D2D9C73F9007A6B0F /* Assets.xcassets in Resources */,
+				F7CAAA862D9C7887007A6B0F /* vegetables.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7CAAA212D9C6C91007A6B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CAAA432D9C7441007A6B0F /* VegetableHTTPClient.swift in Sources */,
+				F7CAAA462D9C75A7007A6B0F /* Vegetable.swift in Sources */,
+				F7CAAA3E2D9C73F9007A6B0F /* PlantWhispererApp.swift in Sources */,
+				F7CAAA3F2D9C73F9007A6B0F /* VegetableListScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7CAAA312D9C6C94007A6B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7CAAA322D9C6C94007A6B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7CAAA342D9C6C94007A6B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Plant Whisperer/Preview Content\"";
+				DEVELOPMENT_TEAM = 6D9CKTK39V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trvl.Plant-Whisperer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7CAAA352D9C6C94007A6B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Plant Whisperer/Preview Content\"";
+				DEVELOPMENT_TEAM = 6D9CKTK39V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trvl.Plant-Whisperer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7CAAA202D9C6C91007A6B0F /* Build configuration list for PBXProject "Plant Whisperer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CAAA312D9C6C94007A6B0F /* Debug */,
+				F7CAAA322D9C6C94007A6B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7CAAA332D9C6C94007A6B0F /* Build configuration list for PBXNativeTarget "Plant Whisperer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CAAA342D9C6C94007A6B0F /* Debug */,
+				F7CAAA352D9C6C94007A6B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7CAAA1D2D9C6C91007A6B0F /* Project object */;
+}

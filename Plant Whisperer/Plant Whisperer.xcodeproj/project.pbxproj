@@ -14,6 +14,13 @@
 		F7CAAA432D9C7441007A6B0F /* VegetableHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CAAA422D9C7441007A6B0F /* VegetableHTTPClient.swift */; };
 		F7CAAA462D9C75A7007A6B0F /* Vegetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CAAA452D9C75A7007A6B0F /* Vegetable.swift */; };
 		F7CAAA862D9C7887007A6B0F /* vegetables.json in Resources */ = {isa = PBXBuildFile; fileRef = F7CAAA852D9C7887007A6B0F /* vegetables.json */; };
+		F7CC6AA32D9DF370007B766C /* VegetableDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC6AA22D9DF370007B766C /* VegetableDetailScreen.swift */; };
+		F7CC6AE32D9DF63E007B766C /* MyGardenVegetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC6AE22D9DF63E007B766C /* MyGardenVegetable.swift */; };
+		F7CC6AE52D9DF6B7007B766C /* SeedOrSeedlingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC6AE42D9DF6B7007B766C /* SeedOrSeedlingView.swift */; };
+		F7CC6AE72D9DF710007B766C /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC6AE62D9DF710007B766C /* Note.swift */; };
+		F7CC6AE92D9DF76F007B766C /* Pest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC6AE82D9DF76F007B766C /* Pest.swift */; };
+		F7CC6B292D9DFBE4007B766C /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC6B282D9DFBE4007B766C /* PreviewContainer.swift */; };
+		F7CC6B2C2D9DFC69007B766C /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC6B2B2D9DFC69007B766C /* Date+Ext.swift */; };
 		F7DAD5522D9CD69800EBDA18 /* VegetableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD5512D9CD69800EBDA18 /* VegetableCellView.swift */; };
 		F7DAD5542D9CD76C00EBDA18 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD5532D9CD76C00EBDA18 /* PreviewData.swift */; };
 		F7FA53BC2D9D8CAE00C3F73B /* VegetableTabBarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FA53BB2D9D8CAE00C3F73B /* VegetableTabBarScreen.swift */; };
@@ -28,6 +35,13 @@
 		F7CAAA422D9C7441007A6B0F /* VegetableHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableHTTPClient.swift; sourceTree = "<group>"; };
 		F7CAAA452D9C75A7007A6B0F /* Vegetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegetable.swift; sourceTree = "<group>"; };
 		F7CAAA852D9C7887007A6B0F /* vegetables.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vegetables.json; sourceTree = "<group>"; };
+		F7CC6AA22D9DF370007B766C /* VegetableDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableDetailScreen.swift; sourceTree = "<group>"; };
+		F7CC6AE22D9DF63E007B766C /* MyGardenVegetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGardenVegetable.swift; sourceTree = "<group>"; };
+		F7CC6AE42D9DF6B7007B766C /* SeedOrSeedlingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedOrSeedlingView.swift; sourceTree = "<group>"; };
+		F7CC6AE62D9DF710007B766C /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		F7CC6AE82D9DF76F007B766C /* Pest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pest.swift; sourceTree = "<group>"; };
+		F7CC6B282D9DFBE4007B766C /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
+		F7CC6B2B2D9DFC69007B766C /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		F7DAD5512D9CD69800EBDA18 /* VegetableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableCellView.swift; sourceTree = "<group>"; };
 		F7DAD5532D9CD76C00EBDA18 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		F7FA53BB2D9D8CAE00C3F73B /* VegetableTabBarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableTabBarScreen.swift; sourceTree = "<group>"; };
@@ -66,6 +80,7 @@
 				F7CAAA852D9C7887007A6B0F /* vegetables.json */,
 				F7DAD5532D9CD76C00EBDA18 /* PreviewData.swift */,
 				F7CAAA362D9C73F9007A6B0F /* Preview Assets.xcassets */,
+				F7CC6B282D9DFBE4007B766C /* PreviewContainer.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -73,6 +88,7 @@
 		F7CAAA3B2D9C73F9007A6B0F /* Plant Whisperer */ = {
 			isa = PBXGroup;
 			children = (
+				F7CC6B2A2D9DFC53007B766C /* Extensions */,
 				F7DAD5502D9CD67C00EBDA18 /* Views */,
 				F7CAAA442D9C7577007A6B0F /* Models */,
 				F7CAAA412D9C740A007A6B0F /* Clients */,
@@ -89,6 +105,7 @@
 			children = (
 				F7CAAA3A2D9C73F9007A6B0F /* VegetableListScreen.swift */,
 				F7FA53BB2D9D8CAE00C3F73B /* VegetableTabBarScreen.swift */,
+				F7CC6AA22D9DF370007B766C /* VegetableDetailScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -105,14 +122,26 @@
 			isa = PBXGroup;
 			children = (
 				F7CAAA452D9C75A7007A6B0F /* Vegetable.swift */,
+				F7CC6AE22D9DF63E007B766C /* MyGardenVegetable.swift */,
+				F7CC6AE62D9DF710007B766C /* Note.swift */,
+				F7CC6AE82D9DF76F007B766C /* Pest.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F7CC6B2A2D9DFC53007B766C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F7CC6B2B2D9DFC69007B766C /* Date+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F7DAD5502D9CD67C00EBDA18 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				F7DAD5512D9CD69800EBDA18 /* VegetableCellView.swift */,
+				F7CC6AE42D9DF6B7007B766C /* SeedOrSeedlingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,11 +220,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7CC6AA32D9DF370007B766C /* VegetableDetailScreen.swift in Sources */,
+				F7CC6AE52D9DF6B7007B766C /* SeedOrSeedlingView.swift in Sources */,
 				F7CAAA432D9C7441007A6B0F /* VegetableHTTPClient.swift in Sources */,
 				F7DAD5522D9CD69800EBDA18 /* VegetableCellView.swift in Sources */,
 				F7DAD5542D9CD76C00EBDA18 /* PreviewData.swift in Sources */,
+				F7CC6B2C2D9DFC69007B766C /* Date+Ext.swift in Sources */,
+				F7CC6B292D9DFBE4007B766C /* PreviewContainer.swift in Sources */,
+				F7CC6AE92D9DF76F007B766C /* Pest.swift in Sources */,
 				F7CAAA462D9C75A7007A6B0F /* Vegetable.swift in Sources */,
 				F7FA53BC2D9D8CAE00C3F73B /* VegetableTabBarScreen.swift in Sources */,
+				F7CC6AE72D9DF710007B766C /* Note.swift in Sources */,
+				F7CC6AE32D9DF63E007B766C /* MyGardenVegetable.swift in Sources */,
 				F7CAAA3E2D9C73F9007A6B0F /* PlantWhispererApp.swift in Sources */,
 				F7CAAA3F2D9C73F9007A6B0F /* VegetableListScreen.swift in Sources */,
 			);

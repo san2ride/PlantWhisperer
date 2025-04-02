@@ -35,7 +35,7 @@ class Vegetable: Decodable {
     var daysToHarvestSeeds: Int
     var daysToHarvestSeedlings: Int
     var healthBenefits: String
-    //var pests: [Pest]?
+    var pests: [Pest]?
     
     required init(from decoder: Decoder) throws {
             
@@ -65,7 +65,7 @@ class Vegetable: Decodable {
             self.daysToHarvestSeeds = try container.decode(Int.self, forKey: .daysToHarvestSeeds)
             self.daysToHarvestSeedlings = try container.decode(Int.self, forKey: .daysToHarvestSeedlings)
             self.healthBenefits = try container.decode(String.self, forKey: .healthBenefits)
-            //self.pests = try container.decode([Pest].self, forKey: .pests)
+            self.pests = try container.decode([Pest].self, forKey: .pests)
         }
     
     enum CodingKeys: String, CodingKey {

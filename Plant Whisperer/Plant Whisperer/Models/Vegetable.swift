@@ -35,8 +35,6 @@ class Vegetable: Decodable {
     var daysToHarvestSeeds: Int
     var daysToHarvestSeedlings: Int
     var healthBenefits: String
-    
-    @Relationship(deleteRule: .nullify)
     //var pests: [Pest]?
     
     required init(from decoder: Decoder) throws {

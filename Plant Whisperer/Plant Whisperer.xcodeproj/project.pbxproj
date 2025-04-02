@@ -14,6 +14,8 @@
 		F7CAAA432D9C7441007A6B0F /* VegetableHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CAAA422D9C7441007A6B0F /* VegetableHTTPClient.swift */; };
 		F7CAAA462D9C75A7007A6B0F /* Vegetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CAAA452D9C75A7007A6B0F /* Vegetable.swift */; };
 		F7CAAA862D9C7887007A6B0F /* vegetables.json in Resources */ = {isa = PBXBuildFile; fileRef = F7CAAA852D9C7887007A6B0F /* vegetables.json */; };
+		F7DAD5522D9CD69800EBDA18 /* VegetableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD5512D9CD69800EBDA18 /* VegetableCellView.swift */; };
+		F7DAD5542D9CD76C00EBDA18 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD5532D9CD76C00EBDA18 /* PreviewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		F7CAAA422D9C7441007A6B0F /* VegetableHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableHTTPClient.swift; sourceTree = "<group>"; };
 		F7CAAA452D9C75A7007A6B0F /* Vegetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegetable.swift; sourceTree = "<group>"; };
 		F7CAAA852D9C7887007A6B0F /* vegetables.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vegetables.json; sourceTree = "<group>"; };
+		F7DAD5512D9CD69800EBDA18 /* VegetableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableCellView.swift; sourceTree = "<group>"; };
+		F7DAD5532D9CD76C00EBDA18 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				F7CAAA852D9C7887007A6B0F /* vegetables.json */,
+				F7DAD5532D9CD76C00EBDA18 /* PreviewData.swift */,
 				F7CAAA362D9C73F9007A6B0F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -66,6 +71,7 @@
 		F7CAAA3B2D9C73F9007A6B0F /* Plant Whisperer */ = {
 			isa = PBXGroup;
 			children = (
+				F7DAD5502D9CD67C00EBDA18 /* Views */,
 				F7CAAA442D9C7577007A6B0F /* Models */,
 				F7CAAA412D9C740A007A6B0F /* Clients */,
 				F7CAAA402D9C73FF007A6B0F /* Screens */,
@@ -98,6 +104,14 @@
 				F7CAAA452D9C75A7007A6B0F /* Vegetable.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F7DAD5502D9CD67C00EBDA18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7DAD5512D9CD69800EBDA18 /* VegetableCellView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +189,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7CAAA432D9C7441007A6B0F /* VegetableHTTPClient.swift in Sources */,
+				F7DAD5522D9CD69800EBDA18 /* VegetableCellView.swift in Sources */,
+				F7DAD5542D9CD76C00EBDA18 /* PreviewData.swift in Sources */,
 				F7CAAA462D9C75A7007A6B0F /* Vegetable.swift in Sources */,
 				F7CAAA3E2D9C73F9007A6B0F /* PlantWhispererApp.swift in Sources */,
 				F7CAAA3F2D9C73F9007A6B0F /* VegetableListScreen.swift in Sources */,

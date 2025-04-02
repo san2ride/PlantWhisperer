@@ -16,6 +16,7 @@
 		F7CAAA862D9C7887007A6B0F /* vegetables.json in Resources */ = {isa = PBXBuildFile; fileRef = F7CAAA852D9C7887007A6B0F /* vegetables.json */; };
 		F7DAD5522D9CD69800EBDA18 /* VegetableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD5512D9CD69800EBDA18 /* VegetableCellView.swift */; };
 		F7DAD5542D9CD76C00EBDA18 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAD5532D9CD76C00EBDA18 /* PreviewData.swift */; };
+		F7FA53BC2D9D8CAE00C3F73B /* VegetableTabBarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FA53BB2D9D8CAE00C3F73B /* VegetableTabBarScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		F7CAAA852D9C7887007A6B0F /* vegetables.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vegetables.json; sourceTree = "<group>"; };
 		F7DAD5512D9CD69800EBDA18 /* VegetableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableCellView.swift; sourceTree = "<group>"; };
 		F7DAD5532D9CD76C00EBDA18 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		F7FA53BB2D9D8CAE00C3F73B /* VegetableTabBarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableTabBarScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				F7CAAA3A2D9C73F9007A6B0F /* VegetableListScreen.swift */,
+				F7FA53BB2D9D8CAE00C3F73B /* VegetableTabBarScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				F7DAD5522D9CD69800EBDA18 /* VegetableCellView.swift in Sources */,
 				F7DAD5542D9CD76C00EBDA18 /* PreviewData.swift in Sources */,
 				F7CAAA462D9C75A7007A6B0F /* Vegetable.swift in Sources */,
+				F7FA53BC2D9D8CAE00C3F73B /* VegetableTabBarScreen.swift in Sources */,
 				F7CAAA3E2D9C73F9007A6B0F /* PlantWhispererApp.swift in Sources */,
 				F7CAAA3F2D9C73F9007A6B0F /* VegetableListScreen.swift in Sources */,
 			);

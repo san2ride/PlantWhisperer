@@ -16,10 +16,9 @@ struct VegetableDetailScreen: View {
     @State private var showSeedOrSeedlingMenu: Bool = false
     
     private func saveVegetableToMyGarden(with plantOption: PlantOption) {
-        
-        let myGardenVegetable = MyGardenVegetable(vegetable: vegetable, plantOption: plantOption)
+        let myGardenVegetable = MyGardenVegetable(vegetable: vegetable,
+                                                  plantOption: plantOption)
         context.insert(myGardenVegetable)
-        
         do {
             try context.save()
         } catch {
@@ -146,5 +145,5 @@ struct DetailRow: View {
 #Preview {
     NavigationStack {
         VegetableDetailScreen(vegetable: PreviewData.loadVegetables()[0])
-    }
+    }.modelContainer(previewContainer)
 }

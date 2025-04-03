@@ -11,7 +11,8 @@ import SwiftUI
 struct PlantWhispererApp: App {
     var body: some Scene {
         WindowGroup {
-            VegetableListScreen()
+            VegetableTabBarScreen()
+                .modelContainer(for: [Vegetable.self, MyGardenVegetable.self])
         }
     }
 }

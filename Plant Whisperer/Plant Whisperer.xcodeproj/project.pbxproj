@@ -78,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				F7CAAA852D9C7887007A6B0F /* vegetables.json */,
-				F7DAD5532D9CD76C00EBDA18 /* PreviewData.swift */,
 				F7CAAA362D9C73F9007A6B0F /* Preview Assets.xcassets */,
+				F7DAD5532D9CD76C00EBDA18 /* PreviewData.swift */,
 				F7CC6B282D9DFBE4007B766C /* PreviewContainer.swift */,
 			);
 			path = "Preview Content";

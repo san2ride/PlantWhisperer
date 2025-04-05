@@ -9,7 +9,6 @@ import SwiftUI
 import SwiftData
 
 struct VegetableDetailScreen: View {
-    
     let vegetable: Vegetable
     @Environment(\.modelContext) private var context
     
@@ -25,7 +24,6 @@ struct VegetableDetailScreen: View {
             print(error.localizedDescription)
         }
     }
-    
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
@@ -80,9 +78,7 @@ struct VegetableDetailScreen: View {
                 Text(vegetable.harvestDescription)
                     .font(.body)
                     .foregroundColor(.secondary)
-                
             }.padding()
-            
         }
         .toolbar(content: {
             ToolbarItem(placement: .topBarTrailing) {
@@ -105,7 +101,6 @@ struct VegetableDetailScreen: View {
         .navigationTitle(vegetable.name)
     }
 }
-
 struct SectionHeader: View {
     let title: String
     

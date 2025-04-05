@@ -24,7 +24,10 @@ extension PreviewTrait where T == Preview.ViewTraits {
 
 @MainActor
 let previewContainer: ModelContainer = {
-    let container = try! ModelContainer(for: Vegetable.self, MyGardenVegetable.self, Note.self, configurations: ModelConfiguration(isStoredInMemoryOnly: true))
+    let container = try! ModelContainer(for: Vegetable.self,
+                                        MyGardenVegetable.self,
+                                        Note.self,
+                                        configurations: ModelConfiguration(isStoredInMemoryOnly: true))
     
     let vegetables = PreviewData.loadVegetables().prefix(5)
     

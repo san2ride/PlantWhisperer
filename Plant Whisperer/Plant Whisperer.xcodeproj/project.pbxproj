@@ -10,6 +10,7 @@
 		F734A5432DA0E2F8008DE625 /* MyGardenScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F734A5422DA0E2F8008DE625 /* MyGardenScreen.swift */; };
 		F734A5452DA0E72E008DE625 /* MyGardenCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F734A5442DA0E72E008DE625 /* MyGardenCellView.swift */; };
 		F734A5472DA0E8C6008DE625 /* HarvestCountDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F734A5462DA0E8C6008DE625 /* HarvestCountDownView.swift */; };
+		F734A5872DA0EBD7008DE625 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F734A5862DA0EBD7008DE625 /* String+Ext.swift */; };
 		F7CAAA3C2D9C73F9007A6B0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CAAA362D9C73F9007A6B0F /* Preview Assets.xcassets */; };
 		F7CAAA3D2D9C73F9007A6B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CAAA382D9C73F9007A6B0F /* Assets.xcassets */; };
 		F7CAAA3E2D9C73F9007A6B0F /* PlantWhispererApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CAAA392D9C73F9007A6B0F /* PlantWhispererApp.swift */; };
@@ -33,6 +34,7 @@
 		F734A5422DA0E2F8008DE625 /* MyGardenScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGardenScreen.swift; sourceTree = "<group>"; };
 		F734A5442DA0E72E008DE625 /* MyGardenCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGardenCellView.swift; sourceTree = "<group>"; };
 		F734A5462DA0E8C6008DE625 /* HarvestCountDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarvestCountDownView.swift; sourceTree = "<group>"; };
+		F734A5862DA0EBD7008DE625 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		F7CAAA252D9C6C91007A6B0F /* Plant Whisperer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plant Whisperer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CAAA362D9C73F9007A6B0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F7CAAA382D9C73F9007A6B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				F7CC6B2B2D9DFC69007B766C /* Date+Ext.swift */,
+				F734A5862DA0EBD7008DE625 /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F734A5872DA0EBD7008DE625 /* String+Ext.swift in Sources */,
 				F7CC6AA32D9DF370007B766C /* VegetableDetailScreen.swift in Sources */,
 				F7CC6AE52D9DF6B7007B766C /* SeedOrSeedlingView.swift in Sources */,
 				F7CAAA432D9C7441007A6B0F /* VegetableHTTPClient.swift in Sources */,

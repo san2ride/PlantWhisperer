@@ -13,20 +13,20 @@ struct VegetableTabBarScreen: View {
             NavigationStack {
                 VegetableListScreen()
             }.tabItem {
-                Image(systemName: "leaf")
-                Text("Vegetables")
+                    Image(systemName: "leaf")
+                    Text("Vegetables")
                 }
             NavigationStack {
                 MyGardenScreen()
             }.tabItem {
-                Image(systemName: "house")
-                Text("My Garden")
+                    Image(systemName: "house")
+                    Text("My Garden")
                 }
             NavigationStack {
                 Text("Pests")
             }.tabItem {
-                Image(systemName: "ladybug")
-                Text("Pests")
+                    Image(systemName: "ladybug")
+                    Text("Pests")
                 }
         }
     }

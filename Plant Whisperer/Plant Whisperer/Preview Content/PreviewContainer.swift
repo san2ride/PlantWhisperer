@@ -32,20 +32,23 @@ let previewContainer: ModelContainer = {
     let vegetables = PreviewData.loadVegetables().prefix(5)
     
     let gardeningNotes = [
-        Note(title: "Planting Schedule", body: "Tomatoes: Spring, Carrots: Early Summer, Spinach: Fall."),
-        Note(title: "Soil Preparation", body: "Add compost and test pH levels before planting."),
-        Note(title: "Watering Tips", body: "Water early in the morning to prevent evaporation."),
-        Note(title: "Pest Control", body: "Use neem oil or companion planting to deter aphids and beetles."),
-        Note(title: "Harvesting Guide", body: "Pick tomatoes when fully red; carrots when tops are about 1 inch wide.")
+        Note(title: "Planting Schedule",
+             body: "Tomatoes: Spring, Carrots: Early Summer, Spinach: Fall."),
+        Note(title: "Soil Preparation",
+             body: "Add compost and test pH levels before planting."),
+        Note(title: "Watering Tips",
+             body: "Water early in the morning to prevent evaporation."),
+        Note(title: "Pest Control",
+             body: "Use neem oil or companion planting to deter aphids and beetles."),
+        Note(title: "Harvesting Guide",
+             body: "Pick tomatoes when fully red; carrots when tops are about 1 inch wide.")
     ]
     // add vegetables
     for vegetable in vegetables {
         container.mainContext.insert(vegetable)
     }
     for vegetable in vegetables {
-        
         let myGardenVegetable = MyGardenVegetable(vegetable: vegetable, plantOption: .seed)
-        
         for noteId in 1...5 {
             let note = Note(title: "Note \(noteId)", body: "Note Body \(noteId)")
             myGardenVegetable.notes?.append(note)

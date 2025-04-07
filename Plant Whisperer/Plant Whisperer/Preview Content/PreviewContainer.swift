@@ -48,7 +48,8 @@ let previewContainer: ModelContainer = {
         container.mainContext.insert(vegetable)
     }
     for vegetable in vegetables {
-        let myGardenVegetable = MyGardenVegetable(vegetable: vegetable, plantOption: .seed)
+        let myGardenVegetable = MyGardenVegetable(vegetable: vegetable,
+                                                  plantOption: .seed)
         for noteId in 1...5 {
             let note = Note(title: "Note \(noteId)", body: "Note Body \(noteId)")
             myGardenVegetable.notes?.append(note)
@@ -67,4 +68,3 @@ let previewContainer: ModelContainer = {
     }
     return container
 }()
-

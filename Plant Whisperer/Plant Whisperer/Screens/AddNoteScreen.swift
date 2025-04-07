@@ -121,4 +121,3 @@ struct AddNoteScreen: View {
         AddNoteScreen(myGardenVegetable: myGardenVegetables[0])
     }
 }
-

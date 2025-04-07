@@ -10,6 +10,7 @@
 		F7170BE12DA33E80007B7184 /* NoteListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7170BE02DA33E80007B7184 /* NoteListScreen.swift */; };
 		F7170BE32DA34081007B7184 /* AddNoteScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7170BE22DA34081007B7184 /* AddNoteScreen.swift */; };
 		F7170BE52DA3412A007B7184 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7170BE42DA3412A007B7184 /* ImagePicker.swift */; };
+		F7170BE72DA34B10007B7184 /* NoteCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7170BE62DA34B10007B7184 /* NoteCellView.swift */; };
 		F734A5432DA0E2F8008DE625 /* MyGardenScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F734A5422DA0E2F8008DE625 /* MyGardenScreen.swift */; };
 		F734A5452DA0E72E008DE625 /* MyGardenCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F734A5442DA0E72E008DE625 /* MyGardenCellView.swift */; };
 		F734A5472DA0E8C6008DE625 /* HarvestCountDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F734A5462DA0E8C6008DE625 /* HarvestCountDownView.swift */; };
@@ -37,6 +38,7 @@
 		F7170BE02DA33E80007B7184 /* NoteListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListScreen.swift; sourceTree = "<group>"; };
 		F7170BE22DA34081007B7184 /* AddNoteScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteScreen.swift; sourceTree = "<group>"; };
 		F7170BE42DA3412A007B7184 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F7170BE62DA34B10007B7184 /* NoteCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCellView.swift; sourceTree = "<group>"; };
 		F734A5422DA0E2F8008DE625 /* MyGardenScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGardenScreen.swift; sourceTree = "<group>"; };
 		F734A5442DA0E72E008DE625 /* MyGardenCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGardenCellView.swift; sourceTree = "<group>"; };
 		F734A5462DA0E8C6008DE625 /* HarvestCountDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarvestCountDownView.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				F734A5442DA0E72E008DE625 /* MyGardenCellView.swift */,
 				F734A5462DA0E8C6008DE625 /* HarvestCountDownView.swift */,
 				F7170BE42DA3412A007B7184 /* ImagePicker.swift */,
+				F7170BE62DA34B10007B7184 /* NoteCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				F7DAD5542D9CD76C00EBDA18 /* PreviewData.swift in Sources */,
 				F7170BE12DA33E80007B7184 /* NoteListScreen.swift in Sources */,
 				F7CC6B2C2D9DFC69007B766C /* Date+Ext.swift in Sources */,
+				F7170BE72DA34B10007B7184 /* NoteCellView.swift in Sources */,
 				F7CC6B292D9DFBE4007B766C /* PreviewContainer.swift in Sources */,
 				F7CC6AE92D9DF76F007B766C /* Pest.swift in Sources */,
 				F7CAAA462D9C75A7007A6B0F /* Vegetable.swift in Sources */,

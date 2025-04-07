@@ -57,7 +57,9 @@ struct AddNoteScreen: View {
                             .foregroundColor(.green)
                     }
                 }
-                PhotosPicker(selection: $selectedPhotoItem, matching: .images, photoLibrary: .shared()) {
+                PhotosPicker(selection: $selectedPhotoItem,
+                             matching: .images,
+                             photoLibrary: .shared()) {
                     ZStack {
                         Circle()
                             .fill(Color.blue.opacity(0.2))
@@ -79,7 +81,6 @@ struct AddNoteScreen: View {
                     .shadow(color: .gray.opacity(0.5), radius: 10, x: 0, y: 5) // Add shadow
                     .padding() // Optional: Add padding around the image
             }
-            
         }
         .navigationTitle("\(myGardenVegetable.vegetable.name) Note")
         .task(id: selectedPhotoItem) {

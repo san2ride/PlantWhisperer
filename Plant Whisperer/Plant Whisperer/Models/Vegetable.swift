@@ -38,7 +38,6 @@ class Vegetable: Decodable {
     var pests: [Pest]?
     
     required init(from decoder: Decoder) throws {
-            
             let container = try decoder.container(keyedBy: CodingKeys.self)
             self.vegetableId = try container.decode(Int.self, forKey: .vegetableId)
             self.vegetableCode = try container.decode(String.self, forKey: .vegetableCode)
@@ -67,7 +66,6 @@ class Vegetable: Decodable {
             self.healthBenefits = try container.decode(String.self, forKey: .healthBenefits)
             self.pests = try container.decode([Pest].self, forKey: .pests)
         }
-    
     enum CodingKeys: String, CodingKey {
         case vegetableId = "VegetableId"
         case vegetableCode = "VegetableCode"
@@ -97,4 +95,3 @@ class Vegetable: Decodable {
         case pests = "Pests"
     }
 }
-

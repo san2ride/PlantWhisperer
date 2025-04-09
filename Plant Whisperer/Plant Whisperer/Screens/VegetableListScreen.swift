@@ -8,28 +8,58 @@
 import SwiftUI
 
 struct VegetableListScreen: View {
-    @State private var vegetables: [Vegetable] = []
     
+    let vegetables: [Vegetable]
+    @State private var search: String = ""
+    @State private var selectedVegetable: Vegetable?
+    
+    @Environment(\.modelContext) private var context
+    
+    private var filteredVegetables: [Vegetable] {
+        if search.isEmptyOrWhiteSpace {
+            return vegetables
+        } else {
+            return vegetables.filter { $0.name.localizedCaseInsensitiveContains(search) }
+        }
+    }
     var body: some View {
-        List(vegetables) { vegetable in
+        List(filteredVegetables) { vegetable in
             NavigationLink {
-                VegetableCellView(vegetable: vegetable)
+                VegetableDetailScreen(vegetable: vegetable)
             } label: {
                 VegetableCellView(vegetable: vegetable)
+                    .swipeActions(edge: .trailing, content: {
+                        Button {
+                            selectedVegetable = vegetable
+                        } label: {
+                            Label("Add to Garden", systemImage: "plus")
+                        }.tint(.green)
+                    })
             }
         }
-        .listStyle(.plain)
-        .task {
-            do {
-                let client = VegetableHTTPClient()
-                vegetables = try await client.fetchVegetables()
-            } catch {
-                print(error.localizedDescription)
+        .sheet(item: $selectedVegetable, content: { selectedVegetable in
+            SeedOrSeedlingView { plantOption in
+                
+                let myGardenVegetable = MyGardenVegetable(vegetable: selectedVegetable, plantOption: plantOption)
+                context.insert(myGardenVegetable)
+                do {
+                    try context.save()
+                } catch {
+                    print(error.localizedDescription)
+                }
             }
-        }.navigationTitle("Vegetables")
+            .presentationDetents([.fraction(0.25)])
+            .presentationBackground(Color(.systemGray6))
+            
+        })
+        .searchable(text: $search)
+        .listStyle(.plain)
+        .navigationTitle("Vegetables")
     }
 }
 
-#Preview {
-    VegetableListScreen()
+#Preview(traits: .sampleData) {
+    NavigationStack {
+        VegetableListScreen(vegetables: PreviewData.loadVegetables())
+    }
 }

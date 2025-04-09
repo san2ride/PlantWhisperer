@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7006C592DA7119300B78B39 /* PestListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7006C582DA7119300B78B39 /* PestListScreen.swift */; };
+		F7006C5B2DA7120A00B78B39 /* PestDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7006C5A2DA7120A00B78B39 /* PestDetailScreen.swift */; };
+		F7006C5D2DA7126100B78B39 /* PestCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7006C5C2DA7126100B78B39 /* PestCellView.swift */; };
 		F7170BE12DA33E80007B7184 /* NoteListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7170BE02DA33E80007B7184 /* NoteListScreen.swift */; };
 		F7170BE32DA34081007B7184 /* AddNoteScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7170BE22DA34081007B7184 /* AddNoteScreen.swift */; };
 		F7170BE52DA3412A007B7184 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7170BE42DA3412A007B7184 /* ImagePicker.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F7006C582DA7119300B78B39 /* PestListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PestListScreen.swift; sourceTree = "<group>"; };
+		F7006C5A2DA7120A00B78B39 /* PestDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PestDetailScreen.swift; sourceTree = "<group>"; };
+		F7006C5C2DA7126100B78B39 /* PestCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PestCellView.swift; sourceTree = "<group>"; };
 		F7170BE02DA33E80007B7184 /* NoteListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListScreen.swift; sourceTree = "<group>"; };
 		F7170BE22DA34081007B7184 /* AddNoteScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteScreen.swift; sourceTree = "<group>"; };
 		F7170BE42DA3412A007B7184 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -125,6 +131,8 @@
 				F734A5422DA0E2F8008DE625 /* MyGardenScreen.swift */,
 				F7170BE02DA33E80007B7184 /* NoteListScreen.swift */,
 				F7170BE22DA34081007B7184 /* AddNoteScreen.swift */,
+				F7006C582DA7119300B78B39 /* PestListScreen.swift */,
+				F7006C5A2DA7120A00B78B39 /* PestDetailScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -166,6 +174,7 @@
 				F734A5462DA0E8C6008DE625 /* HarvestCountDownView.swift */,
 				F7170BE42DA3412A007B7184 /* ImagePicker.swift */,
 				F7170BE62DA34B10007B7184 /* NoteCellView.swift */,
+				F7006C5C2DA7126100B78B39 /* PestCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -244,6 +253,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7006C5B2DA7120A00B78B39 /* PestDetailScreen.swift in Sources */,
+				F7006C5D2DA7126100B78B39 /* PestCellView.swift in Sources */,
+				F7006C592DA7119300B78B39 /* PestListScreen.swift in Sources */,
 				F734A5872DA0EBD7008DE625 /* String+Ext.swift in Sources */,
 				F7CC6AA32D9DF370007B766C /* VegetableDetailScreen.swift in Sources */,
 				F7CC6AE52D9DF6B7007B766C /* SeedOrSeedlingView.swift in Sources */,

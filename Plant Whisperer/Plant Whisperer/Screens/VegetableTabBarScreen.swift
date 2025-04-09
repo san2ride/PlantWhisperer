@@ -34,7 +34,7 @@ struct VegetableTabBarScreen: View {
                     Text("My Garden")
                 }
             NavigationStack {
-                //PestListScreen(pests: pests)
+                PestListScreen(pests: pests)
             }.tabItem {
                     Image(systemName: "ladybug")
                     Text("Pests")

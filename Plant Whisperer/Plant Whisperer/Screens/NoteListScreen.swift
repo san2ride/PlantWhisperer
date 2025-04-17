@@ -9,22 +9,18 @@ import SwiftUI
 import SwiftData
 
 struct NoteListScreen: View {
-    
     let myGardenVegetable: MyGardenVegetable
     @State private var addNotePresented: Bool = false
-    
     @Environment(\.modelContext) private var context
     
     private func deleteNote(at indexSet: IndexSet) {
         guard let notes = myGardenVegetable.notes else { return }
-        
         for index in indexSet {
             let note = notes[index]
             context.delete(note)
             // remove the note from myGardenVegetable.notes too
             guard let noteToRemoveIndex = notes.firstIndex(where: { $0.persistentModelID == note.persistentModelID }) else { return }
             myGardenVegetable.notes?.remove(at: noteToRemoveIndex)
-            
             try? context.save()
         }
     }

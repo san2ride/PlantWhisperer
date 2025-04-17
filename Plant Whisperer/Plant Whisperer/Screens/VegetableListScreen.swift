@@ -39,7 +39,6 @@ struct VegetableListScreen: View {
         }
         .sheet(item: $selectedVegetable, content: { selectedVegetable in
             SeedOrSeedlingView { plantOption in
-                
                 let myGardenVegetable = MyGardenVegetable(vegetable: selectedVegetable, plantOption: plantOption)
                 context.insert(myGardenVegetable)
                 do {
